@@ -5,7 +5,9 @@ USE sistema_agendamentos;
 CREATE TABLE Cliente (
     CPF CHAR(11) PRIMARY KEY,
     Nome VARCHAR(100) NOT NULL,
-    Data_Nascimento DATE
+    Data_Nascimento DATE,
+    Telefone VARCHAR(15),
+    Email VARCHAR(100)
 );
 
 -- 2. Tabela Servico
