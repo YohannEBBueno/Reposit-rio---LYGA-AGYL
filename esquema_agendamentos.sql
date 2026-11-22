@@ -11,8 +11,6 @@ CREATE TABLE Cliente (
 -- 2. Tabela Servico
 CREATE TABLE Servico (
     ID_Servico INT AUTO_INCREMENT PRIMARY KEY,
-    Fotos_Antes TEXT,
-    Fotos_Depois TEXT,
     Nome VARCHAR(100) NOT NULL,
     Duracao INT,
     Preco DECIMAL(10,2) NOT NULL,
